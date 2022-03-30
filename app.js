@@ -33,3 +33,10 @@ Exercise 5:
 */
 foods.splice(2,0, 'tofu');
 console.log('Exercise 5 Result: ', foods);
+/*
+Exercise 6:
+  - Remove the string 'pizza' in the foods array and replace it with the separate strings 'sushi' & 'cupcake'.
+	- Hmm tricky, think about what the end result should be.... yes Arthur talked about this in class. What is the intended result, pizza will be gone and instead, now sushi & cupcake will be in their instead
+*/
+foods.splice(1,1, "sushi", "cupcake");
+console.log('Exercise 6 Result: ', foods);
