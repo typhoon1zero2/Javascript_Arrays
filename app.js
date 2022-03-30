@@ -48,3 +48,10 @@ Exercise 7:
 */
 const yummy = foods.slice(1,3);
 console.log('Exercise 7 Result: ', yummy);
+/*
+Exercise 8:
+  - Using the indexOf method on the foods array, assign the index of the 'tofu' string to a variable named soyIdx.
+	- Easiest question yet don't overthink it trust me.
+*/
+soyIdx = foods.indexOf('tofu');
+console.log('Exercise 8 Result: ', soyIdx);
