@@ -26,3 +26,10 @@ Exercise 4:
 */
 let favFood = foods [1];
 console.log("Exercise 4 Result: ", foods);
+/*
+Exercise 5:
+  - Insert the string 'tofu' in the foods array between 'pizza' & 'cheeseburger'
+	- How do we add stuff to the middle of the array at a specific spot cant use push, cant use unshift
+*/
+foods.splice(2,0, 'tofu');
+console.log('Exercise 5 Result: ', foods);
