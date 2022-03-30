@@ -55,3 +55,11 @@ Exercise 8:
 */
 soyIdx = foods.indexOf('tofu');
 console.log('Exercise 8 Result: ', soyIdx);
+/*
+Exercise 9:
+  - Assign to a variable named allFoods the result of joining the strings in the foods array such that the result is the following single string:
+    'taco -> sushi -> cupcake -> tofu -> cheeseburger'
+	- Easier than it sounds.... google it
+*/
+let allFoods = foods.join(" -> ");
+console.log('Exercise 9 Result: ', allFoods);
