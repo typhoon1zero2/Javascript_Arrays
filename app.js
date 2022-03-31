@@ -69,3 +69,16 @@ Exercise 10:
 */
 let hasSoup = foods.includes('soup');
 console.log('Exercise 10 Result: ', hasSoup);
+/*
+Exercise 11:
+  - Use the forEach method to iterate through the provided nums array and add each odd number to a new array named odds.
+  - Hint: Initialize the odds variable to an empty array before the iteration.
+*/
+const nums =[100, 5, 23, 15, 21, 72, 9, 45, 66, 7, 81, 90];
+const odds = [];
+nums.forEach((items) => {
+    if (items % 2 === 1){
+        odds.push(items);
+    }
+})
+console.log('Exercise 11 Result: ', odds);
