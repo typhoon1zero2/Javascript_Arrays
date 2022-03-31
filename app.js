@@ -63,3 +63,9 @@ Exercise 9:
 */
 let allFoods = foods.join(" -> ");
 console.log('Exercise 9 Result: ', allFoods);
+/*
+Exercise 10:
+  - Assign a boolean to a variable named hasSoup depending upon whether or not the foods array includes the string 'soup'.
+*/
+let hasSoup = foods.includes('soup');
+console.log('Exercise 10 Result: ', hasSoup);
